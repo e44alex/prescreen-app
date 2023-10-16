@@ -1,0 +1,8 @@
+.question-card {
+
+}
+
+.question-card__options {
+	display: flex;
+	flex-direction: column;
+}
