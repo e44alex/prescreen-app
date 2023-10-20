@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "id": "HYMQ20a",
+      "content": "Generate list of questions for a junior .NET developer interview",
+      "role": "user"
+    }
+  ],
+  "id": "HYMQ20a",
+  "previewToken": null,
+  "userId": "44067be1-9a54-4de2-ac8e-1adb5810dad2"
+}

@@ -1,17 +1,6 @@
 import { Question } from 'src/types/Questions';
 import { shuffle } from 'src/utils/array.ts';
-import {
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  FormControl,
-  FormControlLabel,
-  FormLabel,
-  Radio,
-  RadioGroup,
-  Typography,
-} from '@mui/material';
+import { Card, CardContent, FormControl, FormControlLabel, Radio, RadioGroup, Typography } from '@mui/material';
 
 export type QuestionCardProps = {
   question: Question
@@ -27,7 +16,7 @@ export const QuestionCard = ({ question }: QuestionCardProps) => {
         </Typography>
         <Typography variant="body2">
           <FormControl>
-            <Typography  color="text.primary" gutterBottom variant="h5">
+            <Typography color="text.primary" gutterBottom variant="h5">
               {question.text}
             </Typography>
             <RadioGroup
@@ -42,9 +31,6 @@ export const QuestionCard = ({ question }: QuestionCardProps) => {
           </FormControl>
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button variant="contained" size="small">Learn More</Button>
-      </CardActions>
     </Card>
   </>;
 };
